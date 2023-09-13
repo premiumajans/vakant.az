@@ -1,0 +1,40 @@
+@media (max-width: 992px) {
+  .layout-menu-toggle {
+    display: block;
+  }
+  img[alt=Vakant] {
+    height: 50px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    height: 50px !important;
+    width: 130px !important;
+  }
+  .post-header, .post-cols {
+    flex-direction: column;
+  }
+  .post-title {
+    font-size: 20px;
+  }
+
+  .alert {
+    font-size: 12px;
+  }
+
+  .card-body {
+    .premium-active {
+      flex-direction: column;
+      button {
+        margin-top: 10px;
+      }
+    }
+
+  }
+}
+
+.params-i-val {
+  margin-left: 5px;
+}
